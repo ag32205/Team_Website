@@ -1,1 +1,22 @@
-help me god
+body {
+    background-color: black;
+}
+p {
+    color: white;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+table {
+    color:white;
+}
+ul{
+    color: white;
+}
+ol{
+    color: white;
+}
+
