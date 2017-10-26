@@ -6,10 +6,16 @@ p {
     font-family: cursive;
 }
 h1{
-    color: white;
+    color: lightslategray;
+    font-family: serif;
 }
 h3{
-    color: white;
+    color: lightslategrey;
+    font-family: serif;
+}
+h2{
+    color: lightslategrey;
+    font-family: serif;
 }
 table {
     color:white;
@@ -20,14 +26,17 @@ ul{
 ol{
     color: white;
 }
-h2{
-    color: white;
-}
 li{
     color: grey;
     font-family: cursive;
 }
-hr{
-    color: gray;
+ul{
+    color: grey;
+    font-family: cursive;
 }
+td{
+    color: grey;
+    font-family: cursive;
+}
+
 
