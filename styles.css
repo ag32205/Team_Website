@@ -1,8 +1,9 @@
 body {
-    background-color: black;
+    background-color: lightgrey;
 }
 p {
-    color: white;
+    color: grey;
+    font-family: cursive;
 }
 h1{
     color: white;
@@ -21,5 +22,9 @@ ol{
 }
 h2{
     color: white;
+}
+li{
+    color: grey;
+    font-family: cursive;
 }
 
