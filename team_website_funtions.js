@@ -19,7 +19,7 @@
         var daysuntil = Math.floor((bday.getTime() / 86400000) - (today.getTime() / 86400000));
 
 
-        document.write("There are ", daysuntil, " days until my next birthday.");
+        document.write(daysuntil);
 
 
     }
