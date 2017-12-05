@@ -17,7 +17,11 @@
     <h1>Max Lobato's Page</h1>
     <hr>
     <script>
-    greeting();
+        var today = new Date();
+        var day = today.getDay();
+        var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+        document.write("<h2>", greeting(today), "</h2>");
+
     </script>
     <div class="container">
         <div class="row">
@@ -30,7 +34,7 @@
                 <p>My name is Max Lobato. I am 15 years old and am a student at San Rafael High School. I was born in California on December 15, 2001. My interests and hobbies include drawing, fencing, music, video games, memes, Magic the Gathering, and collecting swords. My goals in life vary from time to time, but currently I want to pursue a career in either music, or programming. My favorite quote is on the left. <br> </p>
                 <p>
                     <script>
-                    birthdayCountDown("12/15/2001");
+                        birthdayCountDown("12/15/2001");
 
                     </script>
                 </p>
