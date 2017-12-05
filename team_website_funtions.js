@@ -36,10 +36,10 @@ function birthdayCountDown(bdate) {
 
     }
 
-    var daysuntil = Math.floor((bday.getTime() / 86400000) - (today.getTime() / 86400000));
+    var daysuntil = Math.ceil((bday.getTime() / 86400000) - (today.getTime() / 86400000));
 
 
-    document.write(daysuntil);
+    return: daysuntil;
 
 
 }
