@@ -44,4 +44,11 @@ function greeting(d) {
 
 
     }
+function greeting(){
 
+
+ var today = new Date();
+        var day = today.getDay();
+        var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+        document.write("<h2>", greeting(today), "</h2>");
+}
