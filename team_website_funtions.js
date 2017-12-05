@@ -1,4 +1,3 @@
-
 function greeting(d) {
     var hour = d.getHours();
     var day = d.getDay();
@@ -19,36 +18,29 @@ function greeting(d) {
     }
 }
 
-    function birthdayCountDown(bdate) {
+function birthdayCountDown(bdate) {
 
-        var today = new Date();
-        var bday = new Date(bdate);
-        var currenttime = today.getTime();
-        var btime = bday.getTime();
+    var today = new Date();
+    var bday = new Date(bdate);
+    var currenttime = today.getTime();
+    var btime = bday.getTime();
 
-        if ((btime - currenttime) < 0) {
+    if ((btime - currenttime) < 0) {
 
 
-            bday.setFullYear(today.getFullYear());
+        bday.setFullYear(today.getFullYear());
 
-            if ((bday.getTime() - today.getTime()) < 0) {
-                bday.setFullYear(bday.getFullYear() + 1);
-            }
-
+        if ((bday.getTime() - today.getTime()) < 0) {
+            bday.setFullYear(bday.getFullYear() + 1);
         }
 
-        var daysuntil = Math.floor((bday.getTime() / 86400000) - (today.getTime() / 86400000));
-
-
-        document.write(daysuntil);
-
-
     }
-function greeting(){
+
+    var daysuntil = Math.floor((bday.getTime() / 86400000) - (today.getTime() / 86400000));
 
 
- var today = new Date();
-        var day = today.getDay();
-        var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-        document.write("<h2>", greeting(today), "</h2>");
+    document.write(daysuntil);
+
+
 }
+
